@@ -27,7 +27,7 @@ namespace Quiz_App
         private int _score = 0;
         private int _number = 1;
 
-        private int _time = 15;
+        private int _time = 60;
         private DispatcherTimer Timer;
 
         public MainWindow()
@@ -419,7 +419,7 @@ namespace Quiz_App
             scoreLbl.Content = "Score : " + this._score;
             this._number = 1;
             final.Visibility = Visibility.Hidden;
-            this._time = 15;
+            this._time = 60;
 
             _lst.Clear();
             Timer = new DispatcherTimer();

@@ -65,7 +65,7 @@ namespace Quiz_App
             questions[8, 3] = "Khoa học gia";
             questions[8, 4] = "*Viết tiểu thuyết";
             //
-            questions[9, 0] = "Lẻ thù của Trydamere là ai";
+            questions[9, 0] = "Kẻ thù của Trydamere là ai?";
             questions[9, 1] = "*Sejuani";
             questions[9, 2] = "Yasuo";
             questions[9, 3] = "Ashe";
